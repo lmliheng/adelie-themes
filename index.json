@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "name": "Adelie Themes",
+  "updatedAt": "2026-10-29",
+  "themes": [
+    {
+      "id": "trae-cn",
+      "name": "Trae CN",
+      "nameZh": "Trae 国内版",
+      "author": "lmliheng",
+      "description": "Trae's near-black greys with its brand green, born blue links and blue input focus.",
+      "descriptionZh": "Trae 国内版的近黑灰底、品牌绿强调，蓝色链接与输入框焦点色。",
+      "file": "themes/trae-cn.json",
+      "version": "1.0.0",
+      "swatch": {
+        "light": {
+          "--ui-canvas": "#f5f9fe",
+          "--ui-surface": "#ffffff",
+          "--ui-fg": "#1c2026",
+          "--ui-accent": "#00a56e"
+        },
+        "dark": {
+          "--ui-canvas": "#0a0b0d",
+          "--ui-surface": "#0c0c0d",
+          "--ui-fg": "#edeff2",
+          "--ui-accent": "#32f08c"
+        }
+      }
+    }
+  ]
+}
