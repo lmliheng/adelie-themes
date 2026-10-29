@@ -1,0 +1,16 @@
+{
+  "name": "@lmliheng/adelie-themes",
+  "version": "1.0.0",
+  "description": "Theme registry for Adelie: index.json plus the theme files it names",
+  "keywords": ["adelie", "themes", "theme-registry"],
+  "license": "Apache-2.0",
+  "author": "lmliheng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmliheng/adelie-themes.git"
+  },
+  "files": ["index.json", "themes", "README.md", "LICENSE"],
+  "publishConfig": {
+    "access": "public"
+  }
+}
