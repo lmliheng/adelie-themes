@@ -8,21 +8,21 @@
       "name": "Trae CN",
       "nameZh": "Trae 国内版",
       "author": "lmliheng",
-      "description": "Trae's near-black greys with its brand green, born blue links and blue input focus.",
-      "descriptionZh": "Trae 国内版的近黑灰底、品牌绿强调，蓝色链接与输入框焦点色。",
+      "description": "Trae's own client palette: a #1a1b1d base with #222427 panels, the #32f08c brand green and the design blue #80c1ff. Both modes taken from Trae's client tokens, not its marketing page.",
+      "descriptionZh": "Trae 客户端的配色：#1a1b1d 底、#222427 面板、品牌绿 #32f08c、设计蓝 #80c1ff。浅色与深色都取自它的客户端令牌，不是官网首页。",
       "file": "themes/trae-cn.json",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "swatch": {
         "light": {
-          "--ui-canvas": "#f5f9fe",
+          "--ui-canvas": "#ffffff",
           "--ui-surface": "#ffffff",
-          "--ui-fg": "#1c2026",
-          "--ui-accent": "#00a56e"
+          "--ui-fg": "#1a1a1a",
+          "--ui-accent": "#0fdc78"
         },
         "dark": {
-          "--ui-canvas": "#0a0b0d",
-          "--ui-surface": "#0c0c0d",
-          "--ui-fg": "#edeff2",
+          "--ui-canvas": "#1a1b1d",
+          "--ui-surface": "#202123",
+          "--ui-fg": "#d1d3db",
           "--ui-accent": "#32f08c"
         }
       }
@@ -48,6 +48,54 @@
           "--ui-surface": "#201d19",
           "--ui-fg": "#ebe5db",
           "--ui-accent": "#e08962"
+        }
+      }
+    },
+    {
+      "id": "vscode",
+      "name": "VS Code Modern",
+      "nameZh": "VS Code 现代",
+      "author": "lmliheng",
+      "description": "VS Code's own two-tone shell — #181818 panels around a #1f1f1f editor — with its #0078d4 blue, 2px corners and 13px UI type. Colours taken from microsoft/vscode's default themes.",
+      "descriptionZh": "照 VS Code 自己的样子：#181818 的面板包着 #1f1f1f 的编辑区，蓝色 #0078d4，2px 直角，13px 界面字。配色取自 microsoft/vscode 的默认主题文件。",
+      "file": "themes/vscode.json",
+      "version": "1.0.0",
+      "swatch": {
+        "light": {
+          "--ui-canvas": "#ffffff",
+          "--ui-surface": "#ffffff",
+          "--ui-fg": "#3b3b3b",
+          "--ui-accent": "#005fb8"
+        },
+        "dark": {
+          "--ui-canvas": "#1f1f1f",
+          "--ui-surface": "#1f1f1f",
+          "--ui-fg": "#cccccc",
+          "--ui-accent": "#0078d4"
+        }
+      }
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "nameZh": "Kimi",
+      "author": "lmliheng",
+      "description": "Kimi's warm white ground with black primary buttons, 8–16px corners and a system font stack. Light and dark both read from the live site.",
+      "descriptionZh": "Kimi 的暖白底配黑主按钮，8–16px 圆角，系统字体栈。浅色与深色都按线上站点实测取值。",
+      "file": "themes/kimi.json",
+      "version": "1.0.0",
+      "swatch": {
+        "light": {
+          "--ui-canvas": "#ffffff",
+          "--ui-surface": "#ffffff",
+          "--ui-fg": "#1a1a1a",
+          "--ui-accent": "#1a1a1a"
+        },
+        "dark": {
+          "--ui-canvas": "#181817",
+          "--ui-surface": "#1f1f1f",
+          "--ui-fg": "#d6d6d6",
+          "--ui-accent": "#d6d6d6"
         }
       }
     }
