@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Adelie Themes",
-  "updatedAt": "2026-10-29",
+  "updatedAt": "2026-10-30",
   "themes": [
     {
       "id": "trae-cn",
@@ -24,6 +24,30 @@
           "--ui-surface": "#0c0c0d",
           "--ui-fg": "#edeff2",
           "--ui-accent": "#32f08c"
+        }
+      }
+    },
+    {
+      "id": "clay-glow",
+      "name": "Clay Glow",
+      "nameZh": "陶光",
+      "author": "lmliheng",
+      "description": "Warm paper canvas with a terracotta accent: a warm editorial light side, and a warm near-black dark side.",
+      "descriptionZh": "暖纸底配陶土强调：浅色是暖调纸面，深色是暖近黑配铜橙强调。",
+      "file": "themes/clay-glow.json",
+      "version": "1.0.0",
+      "swatch": {
+        "light": {
+          "--ui-canvas": "#fbf9f4",
+          "--ui-surface": "#ffffff",
+          "--ui-fg": "#1d1a16",
+          "--ui-accent": "#b85434"
+        },
+        "dark": {
+          "--ui-canvas": "#191713",
+          "--ui-surface": "#201d19",
+          "--ui-fg": "#ebe5db",
+          "--ui-accent": "#e08962"
         }
       }
     }
