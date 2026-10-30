@@ -202,7 +202,7 @@
     "--ui-text-small-lh": "1.55",
     "--ui-text-small-size": "0.8125rem",
     "--ui-tone-attention-bg": "#faf1dd",
-    "--ui-tone-attention-emphasis": "#a87a1c",
+    "--ui-tone-attention-emphasis": "#956a12",
     "--ui-tone-attention-emphasis-fg": "#ffffff",
     "--ui-tone-attention-fg": "#946a17",
     "--ui-tone-attention-line": "#ecd9ac",

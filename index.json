@@ -4,26 +4,50 @@
   "updatedAt": "2026-10-30",
   "themes": [
     {
-      "id": "trae-cn",
-      "name": "Trae CN",
-      "nameZh": "Trae 国内版",
+      "id": "cyber",
+      "name": "Cyberpunk",
+      "nameZh": "赛博朋克",
       "author": "lmliheng",
-      "description": "Trae's own client palette: a #1a1b1d base with #222427 panels, the #32f08c brand green and the design blue #80c1ff. Both modes taken from Trae's client tokens, not its marketing page.",
-      "descriptionZh": "Trae 客户端的配色：#1a1b1d 底、#222427 面板、品牌绿 #32f08c、设计蓝 #80c1ff。浅色与深色都取自它的客户端令牌，不是官网首页。",
-      "file": "themes/trae-cn.json",
-      "version": "1.1.0",
+      "description": "Neon magenta and cyan on near-black in both modes — there is no daylight side: sharp corners, mono, uppercase headings, glitch on entry.",
+      "descriptionZh": "近黑底上的霓虹洋红与青，两种模式都是夜：尖角、等宽、标题全大写，入场带一点故障感。",
+      "file": "themes/cyber.json",
+      "version": "1.0.0",
       "swatch": {
         "light": {
-          "--ui-canvas": "#ffffff",
-          "--ui-surface": "#ffffff",
-          "--ui-fg": "#1a1a1a",
-          "--ui-accent": "#0fdc78"
+          "--ui-canvas": "#0a0a12",
+          "--ui-surface": "#12121f",
+          "--ui-fg": "#e6f1ff",
+          "--ui-accent": "#ff2e97"
         },
         "dark": {
-          "--ui-canvas": "#1a1b1d",
-          "--ui-surface": "#202123",
-          "--ui-fg": "#d1d3db",
-          "--ui-accent": "#32f08c"
+          "--ui-canvas": "#06060c",
+          "--ui-surface": "#0e0e18",
+          "--ui-fg": "#f0f6ff",
+          "--ui-accent": "#ff4da6"
+        }
+      }
+    },
+    {
+      "id": "doodle",
+      "name": "Doodle",
+      "nameZh": "手绘涂鸦",
+      "author": "lmliheng",
+      "description": "Warm paper with a crayon-orange accent, 2px outlines at a hand-drawn weight, and a bouncy ease.",
+      "descriptionZh": "暖纸底配蜡笔橙，2px 手绘粗细的描边，动效带点弹。",
+      "file": "themes/doodle.json",
+      "version": "1.0.0",
+      "swatch": {
+        "light": {
+          "--ui-canvas": "#fffdf7",
+          "--ui-surface": "#ffffff",
+          "--ui-fg": "#332f2a",
+          "--ui-accent": "#f4823c"
+        },
+        "dark": {
+          "--ui-canvas": "#2b2622",
+          "--ui-surface": "#342e29",
+          "--ui-fg": "#f6f0e7",
+          "--ui-accent": "#ffa45c"
         }
       }
     },
@@ -52,50 +76,26 @@
       }
     },
     {
-      "id": "vscode",
-      "name": "VS Code Modern",
-      "nameZh": "VS Code 现代",
+      "id": "skeuo",
+      "name": "Skeuomorphic",
+      "nameZh": "拟物化",
       "author": "lmliheng",
-      "description": "VS Code's own two-tone shell — #181818 panels around a #1f1f1f editor — with its #0078d4 blue, 2px corners and 13px UI type. Colours taken from microsoft/vscode's default themes.",
-      "descriptionZh": "照 VS Code 自己的样子：#181818 的面板包着 #1f1f1f 的编辑区，蓝色 #0078d4，2px 直角，13px 界面字。配色取自 microsoft/vscode 的默认主题文件。",
-      "file": "themes/vscode.json",
+      "description": "Warm paper and canvas with bevels: every raised thing has a highlight along its top and a shadow under it, and menus are frosted.",
+      "descriptionZh": "暖纸与帆布质感配斜面：每个凸起的东西上面一道亮线、下面一层投影，菜单带磨砂。",
+      "file": "themes/skeuo.json",
       "version": "1.0.0",
       "swatch": {
         "light": {
-          "--ui-canvas": "#ffffff",
-          "--ui-surface": "#ffffff",
-          "--ui-fg": "#3b3b3b",
-          "--ui-accent": "#005fb8"
+          "--ui-canvas": "#ddd5c6",
+          "--ui-surface": "#f8f4ea",
+          "--ui-fg": "#2b2620",
+          "--ui-accent": "#8a5a2b"
         },
         "dark": {
-          "--ui-canvas": "#1f1f1f",
-          "--ui-surface": "#1f1f1f",
-          "--ui-fg": "#cccccc",
-          "--ui-accent": "#0078d4"
-        }
-      }
-    },
-    {
-      "id": "kimi",
-      "name": "Kimi",
-      "nameZh": "Kimi",
-      "author": "lmliheng",
-      "description": "Kimi's warm white ground with black primary buttons, 8–16px corners and a system font stack. Light and dark both read from the live site.",
-      "descriptionZh": "Kimi 的暖白底配黑主按钮，8–16px 圆角，系统字体栈。浅色与深色都按线上站点实测取值。",
-      "file": "themes/kimi.json",
-      "version": "1.0.0",
-      "swatch": {
-        "light": {
-          "--ui-canvas": "#ffffff",
-          "--ui-surface": "#ffffff",
-          "--ui-fg": "#1a1a1a",
-          "--ui-accent": "#1a1a1a"
-        },
-        "dark": {
-          "--ui-canvas": "#181817",
-          "--ui-surface": "#1f1f1f",
-          "--ui-fg": "#d6d6d6",
-          "--ui-accent": "#d6d6d6"
+          "--ui-canvas": "#241f19",
+          "--ui-surface": "#2f2820",
+          "--ui-fg": "#f2e9db",
+          "--ui-accent": "#cd8f4d"
         }
       }
     }
