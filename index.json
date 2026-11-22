@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "name": "Adelie Themes",
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-11-22",
   "themes": [
     {
       "id": "cyber",
@@ -11,7 +11,7 @@
       "description": "Neon magenta and cyan on near-black in both modes — there is no daylight side: sharp corners, mono, uppercase headings, glitch on entry.",
       "descriptionZh": "近黑底上的霓虹洋红与青，两种模式都是夜：尖角、等宽、标题全大写，入场带一点故障感。",
       "file": "themes/cyber.json",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "swatch": {
         "light": {
           "--ui-canvas": "#0a0a12",
@@ -35,7 +35,7 @@
       "description": "Warm paper with a crayon-orange accent, 2px outlines at a hand-drawn weight, and a bouncy ease.",
       "descriptionZh": "暖纸底配蜡笔橙，2px 手绘粗细的描边，动效带点弹。",
       "file": "themes/doodle.json",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "swatch": {
         "light": {
           "--ui-canvas": "#fffdf7",
@@ -83,7 +83,7 @@
       "description": "Warm paper and canvas with bevels: every raised thing has a highlight along its top and a shadow under it, and menus are frosted.",
       "descriptionZh": "暖纸与帆布质感配斜面：每个凸起的东西上面一道亮线、下面一层投影，菜单带磨砂。",
       "file": "themes/skeuo.json",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "swatch": {
         "light": {
           "--ui-canvas": "#ddd5c6",
